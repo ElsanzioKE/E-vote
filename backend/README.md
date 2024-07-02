@@ -1,6 +1,3 @@
-Certainly! Here's a sample README.md file for your Flask backend project:
-
----
 
 # E-Vote Backend
 
