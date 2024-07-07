@@ -1,0 +1,11 @@
+<div class="candidate-tile" data-username= <%= candidate.username %> >
+    <div class="candidate-image">
+        <img src="<%= candidate.image %>" width="50px" height=auto />
+    </div>
+    <div class="details">
+        <h3 class="candidate-name"><%= candidate.name %></h3>
+        <span class="label label-info"><%= candidate.regno %></span>
+    </div>
+    <div class="checkbox"> 
+    </div>
+</div>

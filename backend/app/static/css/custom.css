@@ -1,0 +1,168 @@
+/* Developed by Prakhar Srivastav - 264/48 [http://www.github.com/prakhar1989] */
+body {
+    background:  #EEE url('/static/img/denim.png');
+    background-color: #232927;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #E3D7BF;
+}
+.splash {
+    text-align: center;
+    background: none repeat scroll 0% 0% white;
+    font-weight: 400;
+    position: relative;
+    margin: 40px auto 0px;
+    width: 340px;
+    border: 1px solid rgb(195, 204, 208);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0), 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 3px 3px;
+}
+
+#main {
+    margin-bottom: 20px;
+}
+.splash h2{
+    margin: 20px 0px;
+}
+
+.splash h3 {
+    margin: 20px;
+}
+
+.splash h4 {
+    margin: 20px;
+}
+
+.splash small {
+    margin-bottom: 20px;
+}
+
+.splash .btn {
+    margin-top: 15px;
+}
+
+.white_tile {
+    padding: 20px 30px;
+    background: none repeat scroll 0% 0% white;
+    border: 1px solid rgb(195, 204, 208);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0), 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 3px 3px;
+}
+
+.white_bg{
+    background: none repeat scroll 0% 0% white;
+    border: 1px solid rgb(195, 204, 208);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0), 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 3px 3px;
+}
+
+section{
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.post_heading{
+    margin-top: 20px;
+}
+
+.user_details {
+    background: whiteSmoke;
+}
+
+.candidate-tile{
+    background: whiteSmoke;
+    border: 1px solid rgba(0,0,0,0.05);
+    margin-top: 20px;
+    padding: 20px 25px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    clear: both;
+}
+
+
+.candidate-tile:hover{
+    cursor: pointer;
+    border: 1px solid rgb(195, 204, 208);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0), 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 3px 3px 3px 3px;
+}
+
+.candidate_selected{
+    background: Lavender;
+    -moz-box-shadow: inset 0 0 5px #888;
+    -webkit-box-shadow: inset 0 0 5px#888;
+    box-shadow: inner 0 0 5px #888;
+}
+
+.candidate-image {
+    float: left;
+    background: white;
+    border-radius: 4px;
+    padding: 4px;
+    margin-right: 25px;
+}
+
+.candidate-tile span{
+    clear: both;
+}
+
+.checkbox {
+    background: url('/static/img/arrow.png') no-repeat -11px -109px;
+    float: right;
+    position: relative;
+    top: -30px;
+    width: 30px;
+    height: 31px;
+}
+
+.checkbox_selected {
+    background: url('/static/img/arrow.png') no-repeat -11px -9px;
+}
+
+.sidebar {
+    padding: 20px 20px;
+    margin: 0px;
+    margin-right: 20px;
+    height: 100%;
+    background-color: #F2F2F2;
+    background-image: url("/static/img/shadow.png");
+    background-position: right top;
+    background-repeat: repeat-y;
+}
+
+.nav-list > li > a, .nav-list .nav-header {
+    margin-top: 8px;
+}
+
+#error_notif {
+    float: left;
+    display: none;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+#abstain_notif {
+    float: left;
+    display: none;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+#status {
+    display: none;
+}
+
+.submit_btn{
+    padding: 30px;
+    margin-top: 10px;
+    background: #e6e6e6;
+    border-radius: 3px;
+    border: 1px solid #ddd;
+}
+
+.post_listing {
+    margin-right: 20px;
+}
