@@ -31,6 +31,7 @@ def login_user(data):
     if user and bcrypt.check_password_hash(user.password, data['password']):
         access_token = create_access_token(identity={'username': user.username, 'email': user.email, 'role': user.role})
         return jsonify({'token': access_token}), 200
+    else:
         response_object = {
             'status': 'fail',
             'message': 'User does not exist.'
